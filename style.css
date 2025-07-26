@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: rgb(65, 191, 238);
+  background: linear-gradient(
+    0deg,
+    rgba(65, 191, 238, 1) 0%,
+    rgba(17, 7, 214, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock-container{
+    height: 200px;
+    width: 200px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(23px);
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hours-hand {
+    height: 3px;
+    width: 60px;
+    background-color: red;
+    margin-right: 60px;
+    transform-origin: 100%;
+    position: absolute;
+    rotate: 90deg;
+    opacity: 0.8;
+    z-index: 3;
+}
+
+.mins-hand{
+    height: 3px;
+    width: 80px;
+    background-color: blue;
+    margin-right: 80px;
+    transform-origin: 100%;
+    position: absolute;
+    rotate: 90deg;
+    opacity: 0.8;
+    z-index: 3;
+}
+
+.secs-hand{
+    height: 3px;
+    width: 90px;
+    background-color: black;
+    margin-right: 90px;
+    transform-origin: 100%;
+    position: absolute;
+    rotate: 90deg;
+    opacity: 0.8;
+    z-index: 3;
+}
+
+.date {
+    background: transparent;
+    backdrop-filter: blur(5px);
+    margin-top: 6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 4px;
+    text-align: center;
+    padding: 5px;
+    z-index: 1;
+    border-radius: 5px;
+    filter: drop-shadow(1px 5px 5px black);
+}
