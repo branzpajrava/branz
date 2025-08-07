@@ -21,7 +21,7 @@ A simple and stylish analog clock built with HTML, CSS, and JavaScript.
 ## How to Run Locally
 
 1. Clone the repo:  
-   `git clone https://github.com/branzpajrava/branz.git`
+   `git clone https://github.com/branzpajrava/Analog-Clock.git`
 
 2. Open the `index.html` file in your preferred web browser.
 
